@@ -79,7 +79,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -89,6 +89,7 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     background: crimson;
+   
 }
 .navbar .max-width{
     display: flex;
